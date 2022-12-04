@@ -16,7 +16,7 @@ while playing:
     if prev_turn == turn:
         print("Invalid spot selected, please pick another.")
     prev_turn = turn
-    print("player " + str((turn % 2) + 1) + "st turn: pick your spot or press q to quit")
+    print("player " + str((turn % 2) + 1) + "st turn: pick your spot or press q to quit the game.")
 
     # get Input from the player
     choice = input()
@@ -48,7 +48,5 @@ while playing:
         # tie game
         print("No Winner")
 
-    print("Thanks for playing!")
-
-
-
+    print("Thank you for playing!")
+    print("Enjoy your day!")
